@@ -3,15 +3,11 @@ var Schema = mongoose.Schema;
 
 var listingSchema = new Schema({
    listingName: String,
-   latLong: [Number, Number],
+   location: String,
    listingDescription: String,
-   owner: {
-      name: String,
-      phone: Number
-   },
+   phone: String,
    predefinedQuestions: [
       {
-         queryType: String,
          keyword: [String],
          answer: String
       }

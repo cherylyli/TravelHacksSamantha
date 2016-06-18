@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/cherylyli/TravelHacksSamantha#readme",
   "dependencies": {
+    "angular-route": "^1.5.7",
     "body-parser": "^1.15.1",
     "botbuilder": "^1.0.1",
     "cors": "^2.7.1",
