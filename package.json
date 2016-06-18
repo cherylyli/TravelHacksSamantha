@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/cherylyli/TravelHacksSamantha#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.1",
+    "botbuilder": "^1.0.1",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.0",
+    "request": "^2.72.0"
   }
 }
