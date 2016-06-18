@@ -1,0 +1,25 @@
+{
+  "name": "travelhackssamantha",
+  "version": "1.0.0",
+  "description": "Messaging Bot for Travel Hacks 2016",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherylyli/TravelHacksSamantha.git"
+  },
+  "engines": {
+    "node": "5.6.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherylyli/TravelHacksSamantha/issues"
+  },
+  "homepage": "https://github.com/cherylyli/TravelHacksSamantha#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
