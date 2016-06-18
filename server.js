@@ -1,10 +1,7 @@
 var express = require('express');
 var app = express();
 var config = require('./config/index');
- var botController = require('./controllers/bot.controller');
-// var receptionController = require('./controllers/reception.controller');
-// var userController = require('./controllers/user.controller');
-// var locationController = require('./controllers/location.controller');
+var botController = require('./controllers/bot.controller');
 var cors = require('cors');
 var mongoose = require('mongoose');
 
@@ -17,9 +14,6 @@ var serverLogging = function(req, res, next){
 
 app.use(cors());
 app.use(serverLogging);
-
-//mongoose.connect(config.getDBConnectionString());
-
 
 app.get('/', function(req, res){
    res.send("testing");

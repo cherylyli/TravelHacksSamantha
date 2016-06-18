@@ -6,7 +6,7 @@ module.exports = {
         return configValues.microsoftUrl;
     },
     getDBConnectionString: function(){
-        return "mongodb://" + configValues.dbusername + ":" + configValues.dbpassword + "ds051595.mlab.com:51595/travelhacks2016";
+        return "mongodb://" + configValues.dbusername + ":" + configValues.dbpassword + "@ds051595.mlab.com:51595/travelhacks2016";
     }
 };
 
